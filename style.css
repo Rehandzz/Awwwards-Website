@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#page1{
+    background-color: #E9E9E9;
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    width: 100%;
+    height: 8%;
+    /* background-color: green; */
+    display: flex;
+    gap: 3vw;
+    position: relative;
+}
+
+#nav svg{
+    margin-top: 1.5vw;
+    margin-left: 3vw;
+    /* background-color: blue; */
+}
+
+#nav .elem{
+    display: flex;
+    width: fit-content;
+    gap: 1vw;
+    /* background-color: bisque; */
+    margin-top: 0.0vw;
+}
+
+#nav .elem h3{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    padding-top: 1.3vw;
+}
+
+#nav input{
+    background-color: #DDDDDD;
+    width: 100%;
+    height: 100%;
+    border: hidden;
+}
+
+#nav .search{
+    height: 70%;
+    width: 38%;
+    background-color: #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.7vw;
+    margin-top: 0.5vw;
+    gap: 0.3vw;
+}
+
+#nav .search i{
+    /* background-color: white; */  
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.4vw;
+}
+
+#nav .btn{
+    /* background-color: aqua; */
+    display: flex;
+    gap: 0.5vw;
+    width: 7vw;
+    /* margin-left: 7vw; */
+}
+
+#nav .btn button{
+    background-color: #E9E9E9;
+    width: 100%;
+    height: 100%;
+    border: hidden;
+    font-weight: 700;
+    font-size: 0.9vw;
+    cursor: pointer;
+}
+
+#nav #btn{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    gap: 1vw;
+    width: 13vw;
+}
+
+#nav #btn #btn1{
+    color: white;
+    width: 7vw;
+    height: 2vw;
+    background-color: #383838;
+    cursor: pointer;
+    border-radius: 0.4vw;
+    font-size: 0.8vw;
+}
+
+#nav #btn #btn2{
+    width: 9vw;
+    height: 2vw;
+    font-size: 0.8vw;
+    border-radius: 0.4vw;
+    cursor: pointer;
+}
+
+#page1 .hero1{
+    /* background-color: red; */
+    font-size: 1vw;
+    margin-top: 4vw;
+}
+
+#page1 .hero1 p{
+    display: flex;
+    justify-content: center;
+    gap: 0.8vw;
+}
+
+#page1 .hero1 p button{
+    font-size: 1vw;
+    font-weight: 549;
+    width: 5.8vw;
+    border-radius: 0.3vw;
+    border: 1.9px solid black;
+}
+
+#page1 .hero2{
+    /* background-color: red; */
+}
+
+#page1 .hero2 h1{
+    text-transform: uppercase;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+}
+
+#page1 .hero2 h3{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+
+#page1 .hero2 img{
+    border-radius: 50%;
+    width: 1.8vw;
+    height: 1.8vw;
+    margin-left: 43.5vw;
+    margin-top: 1.2vw;
+    position: absolute;
+}
+
+#page1 .hero3{
+    display: flex;
+    justify-content: center;
+}
+
+#page1 .hero3 .underline{
+    background-color: #ADADAD;
+    width: 7%;
+    height: 0.1vw;
+}
+
+#page1 .hero4{
+    /* background-color: red; */
+    height: 54.2%;
+    margin-top: 1.5vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(./image/DALL·E\ 2025-01-09\ 23.34.51\ -\ A\ creative\ and\ artistic\ campaign\ poster\ with\ two\ fashionable\ models\ advocating\ the\ fight\ against\ HIV\ stigma.\ The\ left\ figure\ is\ a\ woman\ in\ a\ chic\,\ fut.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page2{
+    width: 100%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+
+#page2 .hero1{
+    /* background-color: red; */
+    height: 20vw;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+#page2 .hero1 p{
+    margin-left: 19vw;
+    font-size: 0.9vw;
+    padding-top: 5vw;
+}
+
+#page2 .hero1 h1{
+    margin-left: 1vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 8vw;
+}
+
+#page2 .hero1 h3{
+    margin-top: 1vw;
+    margin-left: 14.5vw;
+    font-size: 1vw;
+}
+
+#page2 .hero1 h4{
+    font-size: 1vw;
+    margin-left: 19vw;
+}
+
+#page2 .hero2{
+    /* background-color: blue; */
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#page2 .hero2 .elem1{
+    width: 30%;
+    height: 60%;
+    background-color: tomato;
+    border-radius: 1vw;
+    overflow: hidden;
+    background-image: url(https://i.ytimg.com/vi/G_BPHbv2Axk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAskvP4RL2CJSGxWr4NseBSuov5ZQ);
+    background-size: cover;
+}
+
+#page2 .hero2 .elem2{
+    width: 30%;
+    height: 60%;
+    background-color: tomato;
+    border-radius: 1vw;
+    overflow: hidden;
+    background-image: url(https://i.ytimg.com/vi/xi10SuaE49I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAuojLj7ulgA95SY7OjktKXXhhlzQ);
+    background-size: cover;
+}
+
+#page2 .hero2 .effect{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(66, 66, 66, 0.209);
+    opacity: 0;
+}
+
+#page2 .hero2 .effect:hover{
+    opacity: 1;
+}
+
+#page2 .hero2 .effect button{
+    margin-left: 12vw;
+    margin-top: 9vw;
+    height: 3vw;
+    width: 7vw;
+    font-size: 0.9vw;
+    border-radius: 0.6vw;
+    border: 0px solid black;
+    cursor: pointer;
+}
+
+#page2 .hero2 .effect button:hover{
+    background-color: #383838;
+    color: white;
+}
+
+#page2 .hero2 .effect h3{
+    color: white;
+    font-size: 2vw;
+    margin-top: 5vw;
+    margin-left: 2vw;
+    cursor: pointer;
+}
